@@ -27,7 +27,7 @@ body {
 }
 
 .sliderWrapper {
-  width: 140px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -35,8 +35,8 @@ body {
 #slides {
   overflow-x: hidden;
   position: relative;
-  height: 140px;
-  width: 140px;
+  height: 300px;
+  width: 100%;
   padding: 0px;
   margin: 0px;
 }
@@ -51,7 +51,6 @@ body {
   z-index: 1;
   transition: opacity 1s;
   box-sizing: border-box;
-  background: #333;
 }
 
 .showing {
