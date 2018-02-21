@@ -4,13 +4,21 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>JDesign - About</title>
-	
+
+	<!-- Font imports -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Vollkorn:400,300,600" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Neuton:400,300,600" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	<title>JDesign - Home</title>
+
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
 	<!--Custom CSS-->
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bxslider.css">
+
 </head>
 <body>
 <!--navbar-->
@@ -23,13 +31,16 @@
 	<div class="navbar-collapse collapse justify-content-end" id="navbarCollapse">
 		<ul class="navbar-nav">
 			<li class="nav-item">
+				<a class="nav-link" href="./index.html">Home</a>
+			</li>
+			<li class="nav-item">
 				<a class="nav-link" href="./about.html">About</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="./portfolio.html">Portfolio</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Contact</a>
+				<a class="nav-link" href="./form.html">Contact</a>
 			</li>
 		</ul>
 	</div>
@@ -42,9 +53,18 @@
 		<h1 class="jumbotron-heading text-center">About</h1>
 		<div class="row">
 			<div class="col-12">
-				<p class="text-center mb-sm-5">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				<p class="text-left mb-sm-5">
+					Team: Julian Walker
 				</p>
+				<p class="text-left mb-sm-5">
+					Julian is passionate about anything and everything web design.<br />
+					Julian maintains skills in the following web technologies:
+				</p>
+					<ul>
+						<li> HTML5 </li>
+						<li> Javascript/jQuery </li>
+						<li> PHP </li>
+					</ul>
 			</div>
 		</div>
 	</div>
@@ -52,29 +72,29 @@
 <!--tech samples-->
 <div class="bg-light">
 	<div class="container">
-		<h1 class="jumbotron-heading text-center">Samples</h1>
+		<h1 class="jumbotron-heading text-center">Services</h1>
 		<div class="row">
 			<div class="col-12 col-sm-4">
 				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
+					<img class="mr-3 img-50" src="images/basic.png" alt="basic-logo">
 					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
+						Website Development
 					</div>
 				</div>
 			</div>
 			<div class="col-12 col-sm-4">
 				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
+					<img class="mr-3 img-50" src="images/basic.png" alt="basic-logo">
 					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
+						Visual Branding
 					</div>
 				</div>
 			</div>
 			<div class="col-12 col-sm-4">
 				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
+					<img class="mr-3 img-50" src="images/basic.png" alt="basic-logo">
 					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
+						Marketing analytics
 					</div>
 				</div>
 			</div>
@@ -82,39 +102,43 @@
 		<div class="row">
 			<div class="col-12 col-sm-4">
 				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
+					<img class="mr-3 img-50" src="images/basic.png" alt="basic-logo">
 					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
+						Website Hosting
 					</div>
 				</div>
 			</div>
 			<div class="col-12 col-sm-4">
 				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
+					<img class="mr-3 img-50" src="images/basic.png" alt="basic-logo">
 					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
+						Social Media
 					</div>
 				</div>
 			</div>
 			<div class="col-12 col-sm-4">
 				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
+					<img class="mr-3 img-50" src="images/basic.png" alt="basic-logo">
 					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
+						Search Engine Optimization
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
 <!--JQuery-->
+<!--Currently sourced from CDN, local fallback to be added -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <!--Popper-->
+<!--Currently sourced from CDN, local fallback to be added -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <!--Bootstrap JS-->
+<!--Currently sourced from CDN, local fallback to be added -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <!--slider-->
-<script src="/js/slider.js"></script>
+<script src="js/slider.js"></script>
 </body>
+
+<!-- Footer to be added later -->
 </html>

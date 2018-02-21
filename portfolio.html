@@ -4,13 +4,21 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>JDesign - Portfolio</title>
-	
+
+	<!-- Font imports -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Vollkorn:400,300,600" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Neuton:400,300,600" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	<title>JDesign - Home</title>
+
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
 	<!--Custom CSS-->
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bxslider.css">
+
 </head>
 <body>
 <!--navbar-->
@@ -23,13 +31,16 @@
 	<div class="navbar-collapse collapse justify-content-end" id="navbarCollapse">
 		<ul class="navbar-nav">
 			<li class="nav-item">
+				<a class="nav-link" href="./index.html">Home</a>
+			</li>
+			<li class="nav-item">
 				<a class="nav-link" href="./about.html">About</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="./portfolio.html">Portfolio</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Contact</a>
+				<a class="nav-link" href="./form.html">Contact</a>
 			</li>
 		</ul>
 	</div>
@@ -37,88 +48,57 @@
 <!--/navber-->
 
 <!--page content-->
+<!-- Still needs a fair amount of work.
+	- Build in slider for desktop.
+	- Replace placeholder images.
+	- Add in content below
+	-->
 <div class="py-4">
 	<div class="container">
 		<h1 class="jumbotron-heading text-center">Portfolio</h1>
-		<div class="row">
-			<div class="col-6">
-				<img src="https://ih0.redbubble.net/image.495919609.0855/raf,360x360,075,t,fafafa:ca443f4786.jpg" class="img-fluid">
-			</div>
-			<div class="col-6">
-				<h4>Title</h4>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				</p>
-			</div>
+		<h2 id="imedhub" class="jumbotron-heading text-center">iMedhub</h2>
+		<div>
+			<img src="images/imedhub.png" class="img-fluid" alt="imedhub">
+			<p> Some bullshit about this project</p>
 		</div>
 	</div>
 </div>
-<!--tech samples-->
 <div class="bg-light">
 	<div class="container">
-		<h1 class="jumbotron-heading text-center">Samples</h1>
-		<div class="row">
-			<div class="col-12 col-sm-4">
-				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
-					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-4">
-				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
-					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-4">
-				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
-					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
-					</div>
-				</div>
-			</div>
+
+		<h2 id="portlycellar" class="jumbotron-heading text-center">Portly Cellars</h2>
+		<div>
+				<img src="images/portlycellars.png" class="img-fluid" alt="portly cellars">
+			<p> Some bullshit about this project</p>
+			<p> Some bullshit about this project</p>
 		</div>
-		<div class="row">
-			<div class="col-12 col-sm-4">
-				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
-					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-4">
-				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
-					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-4">
-				<div class="media mb-4">
-					<img class="mr-3 img-50" src="https://i.imgur.com/1eJ1q0V.jpg">
-					<div class="media-body">
-						Cras sit amet nibh libero, in gravida nulla.
-					</div>
-				</div>
-			</div>
+
+	</div>
+</div>
+
+<div class="py-4">
+	<div class="container">
+		<h2 id="last" class="jumbotron-heading text-center">South Coast getaway</h2>
+		<div>
+			<img src="images/southcoastgetaway.png" class="img-fluid" alt="southcoast getaway">
+			<p> some bullshit goes here </p>
 		</div>
 	</div>
 </div>
 
 <!--JQuery-->
+<!--Currently sourced from CDN, local fallback to be added -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<!--Currently sourced from CDN, local fallback to be added -->
 <!--Popper-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!--Currently sourced from CDN, local fallback to be added -->
 <!--Bootstrap JS-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <!--slider-->
-<script src="/js/slider.js"></script>
+<script src="js/slider.js"></script>
+
+
 </body>
+<!-- Footer to be added later -->
 </html>
